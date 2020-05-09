@@ -6,15 +6,15 @@
       "initialamount": 50000
     },
     {
-      "name": "Harry Potter",
-      "password": "1234",
+      "name": "Ashish Dahal",
+      "password": "3535",
       "id": 200,
-      "balance": 150000
+      "balance": 15000
     },
     {
-      "name": "Steve Jobs",
-      "password": "1234",
-      "id": 105,
-      "balance": 2000
+      "name": "Jagat Thapa",
+      "password": "977",
+      "id": 300,
+      "balance": 30000
     }
   ]
