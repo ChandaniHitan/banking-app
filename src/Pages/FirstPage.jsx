@@ -22,7 +22,7 @@ function FirstPage(props) {
         const name = e.target.name;
         const value = e.target.value;
         setTemporaryUser({ ...temporaryuser, [name]: value});
-        // console.log(temporaryuser);
+        
         // console.log(name, value);
     }
 
