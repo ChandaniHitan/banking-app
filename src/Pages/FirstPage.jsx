@@ -3,12 +3,13 @@ import Input from "../components/Input";
 import Info from "../components/Info";
 import Register from "../components/Register";
 import AccountPage from "./AccountPage";
+import defaultUser from "../components/users.json";
 
 
 function FirstPage(props) {
     const [temporaryuser, setTemporaryUser] = useState([]);
 
-    const [users, setUsers] = useState([]);
+    const [users, setUsers] = useState(defaultUser);
 
     const [activePage,setActivePage] = useState("Login")
 
@@ -148,6 +149,10 @@ function FirstPage(props) {
 
                 accountholderName={loggedInUser.name}
                 saving={loggedInUser.initialamount}
+                loggedInUser ={loggedInUser}
+                setLoggedInUser={setLoggedInUser}
+                users={users}
+                setUsers={setUsers}
         
             />
           )}

@@ -1,0 +1,20 @@
+[
+    {
+      "name": "Chandani Thapa",
+      "password": "cat",
+      "id": 100,
+      "initialamount": 50000
+    },
+    {
+      "name": "Harry Potter",
+      "password": "1234",
+      "id": 200,
+      "balance": 150000
+    },
+    {
+      "name": "Steve Jobs",
+      "password": "1234",
+      "id": 105,
+      "balance": 2000
+    }
+  ]
